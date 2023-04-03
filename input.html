@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .mine-div {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-co {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(252, 247, 247);
+    }
+
+    input {
+        background-color: yellow;
+    }
+
+    .login-com {
+        width: 100px;
+        height: 30px;
+    }
+</style>
+
+<body>
+    <div class="mine-div">
+        <div class="login-co">
+            <form class="login-co" action="htpps://google.com" method="get">
+                <input type="text" placeholder="user name" required>
+                <input type="email" placeholder="email" required>
+                <input type="number" placeholder="number" required>
+                <input type="text" readonly value="ji">
+                <button class="login-com" type="submit">
+                    login
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
